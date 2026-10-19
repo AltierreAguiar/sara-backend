@@ -1,9 +1,9 @@
-package service;
+package com.igrejasara.sarabackend.service;
 
-import entities.FichaConversao;
+import com.igrejasara.sarabackend.entities.FichaConversao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.FichaConversaoRepository;
+import com.igrejasara.sarabackend.repositories.FichaConversaoRepository;
 
 import java.time.LocalDate;
 import java.util.List;

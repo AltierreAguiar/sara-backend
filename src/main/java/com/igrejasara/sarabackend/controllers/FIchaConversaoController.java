@@ -1,11 +1,11 @@
-package controllers;
+package com.igrejasara.sarabackend.controllers;
 
-import entities.FichaConversao;
+import com.igrejasara.sarabackend.entities.FichaConversao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.FichaConversaoService;
+import com.igrejasara.sarabackend.service.FichaConversaoService;
 
 import java.util.List;
 

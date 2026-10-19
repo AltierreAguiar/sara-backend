@@ -1,11 +1,11 @@
-package controllers;
+package com.igrejasara.sarabackend.controllers;
 
-import entities.Membro;
+import com.igrejasara.sarabackend.entities.Membro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.MembroService;
+import com.igrejasara.sarabackend.service.MembroService;
 
 import java.util.List;
 

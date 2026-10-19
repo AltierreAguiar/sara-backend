@@ -1,4 +1,4 @@
-package entities;
+package com.igrejasara.sarabackend.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

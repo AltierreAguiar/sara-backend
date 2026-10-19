@@ -1,11 +1,11 @@
-package controllers;
+package com.igrejasara.sarabackend.controllers;
 
-import entities.Celula;
+import com.igrejasara.sarabackend.entities.Celula;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import repositories.CelulaRepository;
+import com.igrejasara.sarabackend.repositories.CelulaRepository;
 
 import java.util.List;
 

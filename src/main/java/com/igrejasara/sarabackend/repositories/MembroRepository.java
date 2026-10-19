@@ -1,6 +1,6 @@
-package repositories;
+package com.igrejasara.sarabackend.repositories;
 
-import entities.Membro;
+import com.igrejasara.sarabackend.entities.Membro;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

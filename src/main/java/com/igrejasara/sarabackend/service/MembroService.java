@@ -1,9 +1,9 @@
-package service;
+package com.igrejasara.sarabackend.service;
 
-import entities.Membro;
+import com.igrejasara.sarabackend.entities.Membro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.MembroRepository;
+import com.igrejasara.sarabackend.repositories.MembroRepository;
 
 import java.time.LocalDate;
 import java.util.List;
